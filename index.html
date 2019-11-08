@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="API Project" content="API Project">
+    <!--RESPONSIVE VIEWPORT-->
+    <meta name="viewport" content="width=device-width">
+    <!--TITLE--> 
+    <title>Random Dog Generator</title>
+    <!--STYLESHEET-->
+    <link href="main.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <h1>Random Dog Generator</h1>
+    </header>
+    <main>
+      <h2 class="main-head">Do you want to see some dogs?</h2>
+      <form>
+        <div class="form-container">
+          <label for="numDogs">Pick a number between 1 and 50:</label>
+          <input type="number" name="numDogs" id="numDogs" min="1" max="50"
+          class="js-number" required>
+          <button type="submit" class="js-submit">Let's See Some Dogs</button>
+        </div>
+    <form>
+      <section class="dog-container js-dogs">
+      
+      </section>
+  </main>
+<!--jQUERY/JS-SCRIPTS-->
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+  </body>
+</html>

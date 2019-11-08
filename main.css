@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  h1, h2{
+    text-align: center;
+    margin-top: 25px;
+  }
+  main {
+   padding: 20px 25px;
+   margin: 0 auto;
+   line-height: 28px;
+  }
+  form{
+    display: block;
+    text-align: center;
+  }
+  .hidden {
+    display: none;
+  }
+  .dog-container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+  }
